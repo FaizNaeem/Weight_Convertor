@@ -13,19 +13,21 @@
         <h1 class="mb-5">Weight Convertor</h1>
         <div
          class="input-group mb-3">
-            <input type="number" id="input_kg" class="form-control" placeholder="ENTER KG" aria-label="Username" aria-describedby="basic-addon1">
+            <input type="number" id="input_kg" onkeyup="Convertor()" class="form-control" placeholder="ENTER KG" aria-label="Username" aria-describedby="basic-addon1">
           </div>
           <div
           class="input-group mb-3 mt-3">
-             <input type="text" class="form-control"  id="pount" placeholder="0" aria-label="Username" aria-describedby="basic-addon1">
+             <input type="number" class="form-control"  
+             onkeyup="Convertor_1()" id="pount" placeholder="0" aria-label="Username" aria-describedby="basic-addon1">
            </div>
            <!-- <p>OUnce</p> -->
            <div
           class="input-group mb-1 mt-3">
-          
-             <input type="text" class="form-control" id="ounce"placeholder="0" aria-label="Username" aria-describedby="basic-addon1">
+        
+             <input type="number" class="form-control" onkeyup="Convertor_2()"
+              id="ounce"placeholder="0" aria-label="Username" aria-describedby="basic-addon1">
            </div>
-           <button type="button" class=" mt-3" onclick="Convertor()">Submit</button>
+           <button type="button" class=" mt-3" onclick="Convertor_main()">Clear</button>
           
     </div>
 </body>
